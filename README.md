@@ -1,5 +1,5 @@
 # Path association rule mining
-annonymized repository for submitting KDD2021
+annonymized repository for KDD2022
 
 ## dataset
 download Nell and DBpedia:
