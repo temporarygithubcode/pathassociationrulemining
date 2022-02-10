@@ -3820,7 +3820,7 @@ void AssociationRules::ParallelFindFrequentLengthOnePath(OriginalGraph &graph, v
                 if( path0.second.size() > maxattributesize)continue;
                 test++;
 
-                cout<<path.vertextuples[0][0]<<"-"<<for_edgelabel<<"-"<<path0.second[0]<<endl;
+//                cout<<path.vertextuples[0][0]<<"-"<<for_edgelabel<<"-"<<path0.second[0]<<endl;
 
 
                 count=0;
@@ -3870,7 +3870,7 @@ void AssociationRules::ParallelFindFrequentLengthOnePath(OriginalGraph &graph, v
 //                for (int for_core=0;for_core<corenum;for_core++) {
 //                    testcount+=matchedvertexsets[for_core].size();
 //                }
-                cout<<"testcount::: "<<count<<endl;
+//                cout<<"testcount::: "<<count<<endl;
 
                 if (count > minsupport) {
 
