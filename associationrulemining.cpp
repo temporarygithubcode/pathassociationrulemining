@@ -3846,14 +3846,6 @@ void AssociationRules::ParallelFindFrequentLengthOnePath(OriginalGraph &graph, v
 //                }
 
 
-                for(int i=0;i<targetslist[0][0].size();i++){
-
-                    for(auto& target: matchedvertices[targetslist[0][0][i]].targetidentifiers){
-
-                        cout<<target<<endl;
-
-                    }
-                }
 
 
                 #pragma omp parallel for
